@@ -1,0 +1,18 @@
+<img src="/assets/image-search.png" class="img-search" alt="Responsive image">
+<div class="container">
+<div class="row mt-5">
+  <div class="col-12 search-bar">
+    <h1>Find any movie you like!</h1>
+    <div class="search open">
+      <input [formControl]="search" title="search" type="search" class="form-control search-box"  autofocus placeholder="Enter the name of the movie"/>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div *ngFor="let movie of movies | async" class="col-md-4 col-sm-6 col-12 movies-col">
+    <img class="moviePoster" [ngStyle]="{'background-image': 'url(' + movie.Poster + ')'}">
+    <h3>{{movie.Title}}</h3>
+    <button class="btn btn-warning" [routerLink] = "['/movie', movie.imdbID]">Movie details</button>
+  </div>
+</div>

@@ -1,0 +1,11 @@
+h1 {
+    text-align: center;
+    color: #474030;
+    margin-bottom: 20px;
+}
+
+.img-search {
+    width: 100%;
+    height: auto;
+    background-size: 100% 100%;
+}

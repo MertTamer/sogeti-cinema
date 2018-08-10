@@ -1,0 +1,21 @@
+<div class="container">
+  <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <a class="navbar-brand" routerLink="/">
+      <img src="/assets/logo-sogeti.png" class="img-fluid d-inline-block align-top" alt="">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/search-movies"><fa-icon [icon]="faSearch"></fa-icon> Search Movies</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/featured-movies"><fa-icon [icon]="faStar"></fa-icon> Featured Movies</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</div>

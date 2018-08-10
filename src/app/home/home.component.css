@@ -1,0 +1,22 @@
+.thumbnail {
+    position: relative;
+}
+
+.caption {
+    color: white;
+    position: absolute;
+    top: 45%;
+    left: 0;
+    width: 100%;
+}
+
+h1.title {
+    padding-top: 30px;
+    text-align: center;
+}
+
+.ng-fa-icon {
+    font-size: 40px;
+    color: #ff4019;
+    cursor: pointer;
+}

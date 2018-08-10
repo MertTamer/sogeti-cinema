@@ -1,0 +1,24 @@
+<div class="thumbnail text-center">
+  <img src="/assets/sogeti-cinema.jpg" class="img-fluid" alt="Responsive image">
+  <div class="caption">
+    <h1 style="font-size:2.5vw;">Welcome to the Cinema of Sogeti</h1>
+    <p style="font-size:1vw;">Find your favorite movies and learn anything you want about them!</p>
+  </div>
+</div>
+
+<div class="container mt-5">
+    <div class="row">
+      <div class="col-sm-6" align="center">
+      <fa-icon [icon]="faSearch" routerLink="/search-movies"></fa-icon>
+      <h3>Search movies</h3>
+      <p>Search movies by title and get the latest information.</p>
+      <a routerLink="/search-movies"><button type="button" class="btn btn-warning">Search Movies</button></a>
+  </div>
+      <div class="col-sm-6" align="center">
+      <fa-icon [icon]="faStar" routerLink="/featured-movies"></fa-icon>
+      <h3>Featured movies</h3>
+      <p>View the latest featured movies picked by our experts.</p>
+      <a routerLink="/featured-movies"><button type="button" class="btn btn-warning">View Featured Movies</button></a>
+      </div>
+    </div>
+</div>

@@ -1,0 +1,14 @@
+.nav-item {
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.ng-fa-icon {
+    color: #ff4019;
+    padding-right: 5px;
+}
+
+.bg-light {
+    background-color: white !important;
+}
